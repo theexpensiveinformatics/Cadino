@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerilymphaticFistula">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="450sp"
+                    android:layout_height="120dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="heart.json"
+                    app:lottie_repeatCount="1000"
+                    app:lottie_repeatMode="reverse"
+                    app:lottie_speed="1" />
+
+                <LinearLayout
+                    android:id="@+id/con_final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0sp"
+
+                    android:layout_marginRight="0sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="@drawable/ripple_list"
+                    android:orientation="vertical"
+                    android:outlineSpotShadowColor="#B4CEE6">
+
+                    <TextView
+                        android:id="@+id/txt_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="15sp"
+                        android:fontFamily="@font/bold"
+                        android:text="Perilymphatic Fistula"
+                        android:textColor="#647081"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/txt_final_dec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginBottom="20sp"
+                        android:fontFamily="@font/medium"
+                        android:gravity="left"
+                        android:text="Confirm by following tests:\n\n1. Fraser test: \nImprovement in pure-tone threshold or speech discrimination after the patient has been in Trendelenburg position for 30 minutes.  \n\n2.	Fistula Test: \nconjugate contralateral slow deviation of the eyes followed by 3-4 ipsilaterally directed beats of nystagmus after introducing positive pressure in the ear. \n\n3.	Caloric Test: \nresponse is reduced in affected ear.   Dizziness variable and include episodic incapacitating vertigo to occasional disequilibrium.  Hearing loss is usually present but not must.  Spontaneous inner ear fistula in cases of congenital hearing loss (congenital malformations such as Mondini’s deformity).  "
+                        android:textColor="#2E2E2E"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt_extra3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="15sp"
+                        android:layout_marginBottom="2sp"
+                        android:fontFamily="@font/bold"
+                        android:text="DDs\nMeniere’s disease\nInfection Labyrinthitis \nAcoustic Neuroma\nPositional Vertigo \nCNS lesions."
+                        android:textColor="#2E2E2E"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt_extra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="15sp"
+                        android:layout_marginBottom="2sp"
+                        android:fontFamily="@font/bold"
+                        android:text="Superior semicircular canal dehiscence syndrome"
+                        android:textColor="#066DFF"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt_extra2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="8sp"
+                        android:layout_marginBottom="15sp"
+                        android:fontFamily="@font/bold"
+                        android:text="Chiari Malformations\n(cerebellar tonsils displaced caudally through foramen magnum): Confirm by positional downbeat nystagmus and ocular motor findings localizing to vestibulocerebellum"
+                        android:textColor="#066DFF"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/con_path"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0sp"
+
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="0sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="@drawable/ripple_list"
+                    android:orientation="vertical"
+                    android:outlineSpotShadowColor="#B4CEE6">
+
+                    <TextView
+                        android:id="@+id/txt_trackmap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="15sp"
+                        android:fontFamily="@font/bold"
+                        android:text="@string/trackmap"
+                        android:textColor="#647081"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/txt_path"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginBottom="15sp"
+                        android:fontFamily="@font/medium"
+                        android:text="-> Head Injury \n-> Transient (days to weeks) hearing loss \n-> Labyrinthine Concussion \n-> Perilymphatic Fistula"
+                        android:textColor="#2E2E2E"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/con_contribute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="25sp"
+                    android:background="@drawable/ripple_list"
+                    android:elevation="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:outlineSpotShadowColor="#B4CEE6">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:layout_marginBottom="15sp"
+                        android:fontFamily="@font/medium"
+                        android:gravity="center"
+                        android:text="@string/contribute"
+                        android:textColor="#2B2B2B"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:alpha=".2"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/logowithtag" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

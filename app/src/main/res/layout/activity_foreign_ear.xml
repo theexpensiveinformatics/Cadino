@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foreignEar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="450dp"
+                    android:layout_height="120dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="heart.json"
+                    app:lottie_repeatCount="1000"
+                    app:lottie_repeatMode="reverse"
+                    app:lottie_speed="1" />
+
+                <LinearLayout
+                    android:id="@+id/con_final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0sp"
+
+                    android:layout_marginRight="0sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="@drawable/ripple_list"
+                    android:orientation="vertical"
+                    android:outlineSpotShadowColor="#B4CEE6">
+
+                    <TextView
+                        android:id="@+id/txt_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="15sp"
+                        android:layout_marginRight="15sp"
+                        android:fontFamily="@font/bold"
+                        android:text="Injury to tympanic membrane, middle ear structures, inner ear (subluxation of stapes into vestibule)"
+                        android:textColor="#647081"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/txt_final_dec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginBottom="20sp"
+                        android:fontFamily="@font/medium"
+                        android:gravity="left"
+                        android:text="Due to introduction of foreign bodies in the ear such as hairpin or a bullet"
+                        android:textColor="#2E2E2E"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/con_path"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0sp"
+
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="0sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="@drawable/ripple_list"
+                    android:orientation="vertical"
+                    android:outlineSpotShadowColor="#B4CEE6">
+
+                    <TextView
+                        android:id="@+id/txt_trackmap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="15sp"
+                        android:fontFamily="@font/bold"
+                        android:text="@string/trackmap"
+                        android:textColor="#647081"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/txt_path"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginBottom="15sp"
+                        android:fontFamily="@font/medium"
+                        android:text="-> Ear Trauma / F.B. \n-> Foreign Bodies like Hairpin or Bullet\n-> Injury to tympanic membrane, middle ear structures, inner ear (subluxation of stapes into vestibule)"
+                        android:textColor="#2E2E2E"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/con_contribute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="25sp"
+                    android:background="@drawable/ripple_list"
+                    android:elevation="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:outlineSpotShadowColor="#B4CEE6">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:layout_marginBottom="15sp"
+                        android:fontFamily="@font/medium"
+                        android:gravity="center"
+                        android:text="@string/contribute"
+                        android:textColor="#2B2B2B"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:alpha=".2"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/logowithtag" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

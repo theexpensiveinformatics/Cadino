@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/agreement_box.xml" value="0.25" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/contribute.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/custom_list.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/custom_track.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/drawer_bg.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/fifth.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/first_bg.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/forth.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/ic_baseline_question_mark_24.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/ic_launcher_background.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/ic_round_arrow_back_24.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/ic_round_clear_all_24.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/option.xml" value="0.2265" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/ripple_list.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/second_bg.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/sixth.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/drawable/third_bg.xml" value="0.218" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_agreement.xml" value="0.264" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_ascent_one.xml" value="0.26145833333333335" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_ascent_two.xml" value="0.26145833333333335" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_baro_trauma.xml" value="0.24739583333333334" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_bleeding.xml" value="0.26145833333333335" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_chiari_malformations.xml" value="0.11354166666666667" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_ear_surjury.xml" value="0.26145833333333335" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_ear_trauma.xml" value="0.1773049645390071" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_foreign_ear.xml" value="0.19083969465648856" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_head_injury.xml" value="0.2" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_headache.xml" value="0.26145833333333335" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_neck_trauma.xml" value="0.24739583333333334" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_perilymphatic_fistula.xml" value="0.16" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_slap_ear.xml" value="0.26145833333333335" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_superior_canal.xml" value="0.26145833333333335" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_transient.xml" value="0.19186046511627908" />
+        <entry key="..\:/TEI/CADINO/Souce Code/app/src/main/res/layout/activity_unable_close_eyes.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

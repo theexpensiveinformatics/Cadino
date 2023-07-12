@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home">
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="20sp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:background="#F7F9FE"
+            android:elevation="0dp"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            app:cardBackgroundColor="#F7F9FE"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/prof" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/con_drawer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/drawer_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drawer"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/ic_round_clear_all_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/con_hi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="Good Morning,"
+            android:textColor="#2B2B2B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2sp"
+            android:fontFamily="@font/bold"
+            android:text="Dr. Krushang Patel 🤞"
+            android:textColor="#2B2B2B"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/con_head"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/first_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/head" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/medium"
+                    android:text="Head Injury"
+                    android:textColor="#202020" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/con_earTrauma"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/second_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/ear_2_" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/medium"
+                    android:gravity="center"
+                    android:text="Ear Trauma \nF.B."
+                    android:textColor="#202020" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/con_neck"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/third_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/neck__" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/medium"
+                    android:gravity="center"
+                    android:text="Minor Neck Trauma \n Neck Manipulation"
+                    android:textColor="#202020" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/con_earSurjury"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/forth"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ears" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/medium"
+                    android:text="Ear Surgery"
+                    android:textColor="#202020" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/con_baroTrauma"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/fifth"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hearingexam" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/medium"
+                    android:text="Baro Trauma"
+                    android:textColor="#202020" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/six"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/sixth"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/healthcare" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:fontFamily="@font/medium"
+                    android:text="Other"
+                    android:textColor="#202020" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
